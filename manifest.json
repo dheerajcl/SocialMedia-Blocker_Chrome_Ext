@@ -1,0 +1,28 @@
+{
+    "manifest-version": 3,
+    "name": "Social Media Blocker",
+    "version": "0.0.1",
+    "content-scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        }
+    },
+    "permissions": [
+        "https://www.facebook.com/*",
+        "https://www.instagram.com/*",
+        "https://www.twitter.com/*",
+        "https://www.youtube.com/*",
+        "https://www.snapchat.com/",
+        "https://www.tiktok.com/",
+        "https://www.reddit.com/"
+    ]
+}
