@@ -6,7 +6,7 @@ This is a simple Chrome extension designed to help you stay focused and producti
 
 __After turning on Social Media Blocker:__
 
-![After](/home/dheerajcl/Pictures/Screenshots/Screenshot from 2024-04-12 00-04-07.png)
+![After](<Screenshot from 2024-04-12 00-04-07.png>)
 
 ## Installation
 
