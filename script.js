@@ -229,6 +229,7 @@ switch (window.location.hostname) {
     case "www.instagram.com":
     case "www.twitter.com":
     case "www.tiktok.com":
+    case "www.snapchat.com":
         document.head.innerHTML = styles;
         document.body.innerHTML = html;
         break;
