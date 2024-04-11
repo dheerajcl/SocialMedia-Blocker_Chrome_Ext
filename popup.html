@@ -4,92 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Distraction-Free Zone</title>
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      font-family: Arial, sans-serif;
-      background-color: #fff;
-      text-align: center;
-      border-radius: 8px;
-      margin: 0;
-      padding: 20px;
-      width: 300px;
-      height: auto;
-      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    }
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Distraction-Free Zone</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #fdebd0, #f6bbbe, #f5b7b1, #f0b27a, #d5dbdb, #d2b4de);
+            text-align: center;
+            border-radius: 8px;
+            margin: 0;
+            padding: 20px;
+            width: 300px;
+            height: auto;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
 
-h1 {
-  color: #222;
-  font-size: 22px;
+        h1 {
+          color: #222;
+          font-size: 24px;
+          margin-bottom: 20px;
+          font-family: 'Poppins', sans-serif;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        .blocked-sites {
+            color: #555;
+            font-size: 16px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .blocked-sites span {
+            margin: 2px; /* Adjusted margin */
+            padding: 4px 8px;
+            border-radius: 20px;
+            background-color: #f0f0f0;
+            white-space: nowrap;
+        }
+
+        .blocked-sites span.youtube {
+            background-color: #FF0000;
+            color: #fff;
+        }
+
+        .blocked-sites span.facebook {
+            background-color: #4267B2;
+            color: #fff;
+        }
+
+        .blocked-sites span.netflix {
+            background-color: #E50914;
+            color: #fff;
+        }
+
+        .blocked-sites span.discord {
+            background-color: #7289da;
+            color: #fff;
+        }
+
+        .blocked-sites span.reddit {
+            background-color: #FF4500;
+            color: #fff;
+        }
+
+        .blocked-sites span.instagram {
+            background-color: #C13584;
+            color: #fff;
+        }
+
+        .blocked-sites span.snapchat {
+            background-color: #f2ff00;
+            color: #000000;
+        }
+        .blocked-sites span.tiktok {
+          background-color: #000000;
+          color: #69C9D0;
 }
-
-hr {
-  border: none;
-  border-top: 1px solid #eee;
-  margin: 20px 0;
-}
-
-.blocked-sites {
-  color: #2e2d2d;
-  font-size: 16px;
-}
-
-.blocked-sites span {
-  margin: 0 5px;
-}
-
-.blocked-sites span.youtube {
-  color: #FF0000;
-}
-
-.blocked-sites span.facebook {
-  color: #4267B2;
-}
-
-.blocked-sites span.netflix {
-  color: #E50914;
-}
-
-.blocked-sites span.discord {
-  color: #7289da;
-}
-
-.blocked-sites span.reddit {
-  color: #FF4500;
-}
-
-.blocked-sites span.instagram {
-  color: #C13584;
-}
-
-.blocked-sites span.snapchat {
-  color: #000000;
-}
-
-  </style>
+    </style>
 </head>
 <body>
-  <div class="main">
+<div class="main">
     <h1>Distraction-Free Zone</h1>
     <hr>
     <div class="blocked-sites">
-      <span>Current Blocked Sites:</span>
-      <span class="youtube">Youtube</span>
-      |
-      <span class="facebook">Facebook</span>
-      |
-      <span class="netflix">Netflix</span>
-      |
-      <span class="discord">Discord</span>
-      |
-      <span class="reddit">Reddit</span>
-      |
-      <span class="instagram">Instagram</span>
-      |
-      <span class="snapchat">Snapchat</span>
+        <span class="youtube">Youtube</span>
+        <span class="facebook">Facebook</span>
+        <span class="netflix">Netflix</span>
+        <span class="discord">Discord</span>
+        <span class="reddit">Reddit</span>
+        <span class="instagram">Instagram</span>
+        <span class="snapchat">Snapchat</span>
+        <span class="tiktok">TikTok</span>
     </div>
-  </div>
+</div>
 </body>
 </html>
